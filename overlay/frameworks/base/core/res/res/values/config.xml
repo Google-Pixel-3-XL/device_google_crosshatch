@@ -386,4 +386,8 @@
 
     <!-- Boost Framework -->
     <bool name="config_supportsBoostFramework">true</bool>
+
+    <!-- Ignore CNE from privacy (location) indicators -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.quicinc.cne.CNEService</string>
+
 </resources>
