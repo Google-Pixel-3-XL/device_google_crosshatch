@@ -17,6 +17,9 @@ TARGET_KERNEL_LLVM_BINUTILS := false
 TARGET_KERNEL_SOURCE := kernel/google/bluecross
 TARGET_NEEDS_DTBOIMAGE := true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Partitions
 AB_OTA_PARTITIONS += \
     vendor
