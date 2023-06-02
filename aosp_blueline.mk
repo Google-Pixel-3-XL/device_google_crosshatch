@@ -58,12 +58,11 @@ ifneq (REL,$(PLATFORM_VERSION_CODENAME))
   PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
 endif
 
-#Inherit some common Elixir stuff
+#Inherit some common PixelOS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Elixir Flags
+# PixelOS Flags
 IS_PHONE := true
-ELIXIR_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_DISABLE_EPPE := true
 TARGET_INCLUDE_STOCK_ACORE := false

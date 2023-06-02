@@ -14,8 +14,8 @@ rm -rf hardware/lineage/compat
 rm -rf prebuilts/clang/kernel/linux-x86/clang-r416183b
 
 # Tree Dependencies
-git clone --depth=1 https://github.com/ProjectElixir-Devices/device_google_crosshatch.git -b thirteen device/google/crosshatch
-git clone --depth=1 https://github.com/Google-Pixel-3-XL/kernel_google_bluecross.git -b thirteen kernel/google/bluecross
+git clone --depth=1 https://github.com/Google-Pixel-3-XL/device_google_crosshatch.git -b pixelos device/google/crosshatch
+git clone --depth=1 https://github.com/Google-Pixel-3-XL/kernel_google_bluecross.git -b evo kernel/google/bluecross
 git clone --depth=1 https://github.com/Google-Pixel-3-XL/vendor_google_crosshatch.git -b thirteen vendor/google/crosshatch
 git clone --depth=1 https://github.com/Google-Pixel-3-XL/vendor_google_blueline.git -b thirteen vendor/google/blueline
 

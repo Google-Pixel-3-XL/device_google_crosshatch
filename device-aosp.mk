@@ -16,6 +16,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
+# Elmyra
+PRODUCT_PACKAGES += \
+    ElmyraService
+    
 # Dex to make OTA go faster
 PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.boot-dex2oat-cpu-set=1,2,3,4,5,6,7 \
