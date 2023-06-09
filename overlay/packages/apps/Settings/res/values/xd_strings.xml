@@ -19,3 +19,5 @@
     <string name="xd_gpu_summary">Adreno 630</string>
     <string name="xd_camera_mp_summary">12MP Single Camera</string>
     <string name="xd_screen_type_summary">OLED FHD 5.5/6.3" Screen</string>
+
+</resources>
