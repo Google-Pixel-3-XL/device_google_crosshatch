@@ -4,4 +4,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/google/crosshatch/device-lineage.mk)
+$(call inherit-product, device/google/crosshatch/device-xdroid.mk)

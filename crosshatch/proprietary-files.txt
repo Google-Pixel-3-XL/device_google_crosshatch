@@ -70,16 +70,6 @@ product/etc/cne/Nexus/ROW/ROW_profiles.xml
 product/etc/cne/Nexus/VZW/VZW_profiles.xml
 product/etc/cne/andsfCne.xml
 
-# Felica
-product/app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED
-product/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk;PRESIGNED
-product/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk;PRESIGNED
-product/app/MobileFeliCaWebPlugin/MobileFeliCaWebPlugin.apk;PRESIGNED
-product/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk;PRESIGNED
-product/etc/felica/common.cfg
-product/etc/felica/mfm.cfg
-product/etc/felica/mfs.cfg
-
 # Hardware info
 product/etc/permissions/com.google.android.hardwareinfo.xml
 product/framework/libhwinfo.jar
@@ -90,7 +80,7 @@ product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD93
 product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
 
 # Permissions
-product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
+product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-xdroid.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/nexus.xml
 product/etc/sysconfig/pixel_2018_exclusive.xml
@@ -281,7 +271,7 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # Permissions
-system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml
+system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-xdroid.xml
 
 # Qualcomm misc
 system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
