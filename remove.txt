@@ -1,0 +1,9 @@
+device/google/crosshatch
+kernel/google/bluecross
+vendor/google/blueline
+vendor/google/crosshatch
+hardware/qcom/sdm845/display
+hardware/qcom/sdm845/media
+hardware/qcom/wlan
+hardware/lineage/compat
+prebuilts/clang/kernel/linux-x86/clang-r416183b
