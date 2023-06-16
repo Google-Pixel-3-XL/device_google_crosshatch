@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-derp
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
@@ -105,6 +105,10 @@ PRODUCT_PACKAGES += \
     nos_app_identity:64 \
     nos_app_keymaster:64 \
     nos_app_weaver:64
+    
+# Now Playing
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
 
 # Protobuf
 PRODUCT_PACKAGES += \

@@ -4,23 +4,29 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common Derpfest stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_IS_PIXEL := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
 
-include device/google/crosshatch/blueline/device-lineage.mk
+include device/google/crosshatch/blueline/device-derp.mk
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := google
+PRODUCT_MANUFACTURER := Google
+PRODUCT_NAME := derp_blueline
+PRODUCT_DEVICE := blueline
+PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 3
-PRODUCT_NAME := lineage_blueline
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2160
-TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=blueline \
